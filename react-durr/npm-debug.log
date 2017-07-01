@@ -1,0 +1,910 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'cache',
+1 verbose cli   'clean',
+1 verbose cli   '-f' ]
+2 info using npm@3.3.12
+3 info using node@v5.4.1
+4 verbose config Skipping project config: /Users/beausd/.npmrc. (matches userconfig)
+5 warn using --force I sure hope you know what you are doing.
+6 silly ls normalized .
+7 silly gentlyRm /Users/beausd/.npm/2 is being purged
+8 silly gentlyRm /Users/beausd/.npm/_git-remotes is being purged
+9 silly gentlyRm /Users/beausd/.npm/_locks is being purged
+10 silly gentlyRm /Users/beausd/.npm/abbrev is being purged
+11 silly gentlyRm /Users/beausd/.npm/ansi-regex is being purged
+12 silly gentlyRm /Users/beausd/.npm/ansi-styles is being purged
+13 silly gentlyRm /Users/beausd/.npm/archy is being purged
+14 silly gentlyRm /Users/beausd/.npm/arr-diff is being purged
+15 silly gentlyRm /Users/beausd/.npm/arr-flatten is being purged
+16 silly gentlyRm /Users/beausd/.npm/array-differ is being purged
+17 silly gentlyRm /Users/beausd/.npm/array-find-index is being purged
+18 silly gentlyRm /Users/beausd/.npm/array-uniq is being purged
+19 silly gentlyRm /Users/beausd/.npm/array-unique is being purged
+20 silly gentlyRm /Users/beausd/.npm/async is being purged
+21 silly gentlyRm /Users/beausd/.npm/balanced-match is being purged
+22 silly gentlyRm /Users/beausd/.npm/beeper is being purged
+23 silly gentlyRm /Users/beausd/.npm/bin is being purged
+24 verbose gentlyRm /Users/beausd/.npm/bin is part of npm and can't be removed
+25 silly gentlyRm /Users/beausd/.npm/bower is being purged
+26 silly gentlyRm /Users/beausd/.npm/brace-expansion is being purged
+27 silly gentlyRm /Users/beausd/.npm/braces is being purged
+28 silly gentlyRm /Users/beausd/.npm/builtin-modules is being purged
+29 silly gentlyRm /Users/beausd/.npm/cache is being purged
+30 silly gentlyRm /Users/beausd/.npm/camelcase is being purged
+31 silly gentlyRm /Users/beausd/.npm/camelcase-keys is being purged
+32 silly gentlyRm /Users/beausd/.npm/chalk is being purged
+33 silly gentlyRm /Users/beausd/.npm/clean is being purged
+34 silly gentlyRm /Users/beausd/.npm/clone is being purged
+35 silly gentlyRm /Users/beausd/.npm/clone-stats is being purged
+36 silly gentlyRm /Users/beausd/.npm/colors is being purged
+37 silly gentlyRm /Users/beausd/.npm/concat-map is being purged
+38 silly gentlyRm /Users/beausd/.npm/core-util-is is being purged
+39 silly gentlyRm /Users/beausd/.npm/currently-unhandled is being purged
+40 silly gentlyRm /Users/beausd/.npm/dateformat is being purged
+41 silly gentlyRm /Users/beausd/.npm/decamelize is being purged
+42 silly gentlyRm /Users/beausd/.npm/defaults is being purged
+43 silly gentlyRm /Users/beausd/.npm/deprecated is being purged
+44 silly gentlyRm /Users/beausd/.npm/detect-file is being purged
+45 silly gentlyRm /Users/beausd/.npm/ds is being purged
+46 silly gentlyRm /Users/beausd/.npm/duplexer2 is being purged
+47 silly gentlyRm /Users/beausd/.npm/end-of-stream is being purged
+48 silly gentlyRm /Users/beausd/.npm/error-ex is being purged
+49 silly gentlyRm /Users/beausd/.npm/escape-string-regexp is being purged
+50 silly gentlyRm /Users/beausd/.npm/etc is being purged
+51 silly gentlyRm /Users/beausd/.npm/expand-brackets is being purged
+52 silly gentlyRm /Users/beausd/.npm/expand-range is being purged
+53 silly gentlyRm /Users/beausd/.npm/expand-tilde is being purged
+54 silly gentlyRm /Users/beausd/.npm/extend is being purged
+55 silly gentlyRm /Users/beausd/.npm/extglob is being purged
+56 silly gentlyRm /Users/beausd/.npm/fancy-log is being purged
+57 silly gentlyRm /Users/beausd/.npm/filename-regex is being purged
+58 silly gentlyRm /Users/beausd/.npm/fill-range is being purged
+59 silly gentlyRm /Users/beausd/.npm/find-index is being purged
+60 silly gentlyRm /Users/beausd/.npm/find-up is being purged
+61 silly gentlyRm /Users/beausd/.npm/findup-sync is being purged
+62 silly gentlyRm /Users/beausd/.npm/fined is being purged
+63 silly gentlyRm /Users/beausd/.npm/first-chunk-stream is being purged
+64 silly gentlyRm /Users/beausd/.npm/flagged-respawn is being purged
+65 silly gentlyRm /Users/beausd/.npm/for-in is being purged
+66 silly gentlyRm /Users/beausd/.npm/for-own is being purged
+67 silly gentlyRm /Users/beausd/.npm/fs-exists-sync is being purged
+68 silly gentlyRm /Users/beausd/.npm/gaze is being purged
+69 silly gentlyRm /Users/beausd/.npm/get-stdin is being purged
+70 silly gentlyRm /Users/beausd/.npm/glob is being purged
+71 silly gentlyRm /Users/beausd/.npm/glob-base is being purged
+72 silly gentlyRm /Users/beausd/.npm/glob-parent is being purged
+73 silly gentlyRm /Users/beausd/.npm/glob-stream is being purged
+74 silly gentlyRm /Users/beausd/.npm/glob-watcher is being purged
+75 silly gentlyRm /Users/beausd/.npm/glob2base is being purged
+76 silly gentlyRm /Users/beausd/.npm/global-modules is being purged
+77 silly gentlyRm /Users/beausd/.npm/global-prefix is being purged
+78 silly gentlyRm /Users/beausd/.npm/globule is being purged
+79 silly gentlyRm /Users/beausd/.npm/glogg is being purged
+80 silly gentlyRm /Users/beausd/.npm/graceful-fs is being purged
+81 silly gentlyRm /Users/beausd/.npm/grunt-cli is being purged
+82 silly gentlyRm /Users/beausd/.npm/grunt-known-options is being purged
+83 silly gentlyRm /Users/beausd/.npm/grunt-version-check is being purged
+84 silly gentlyRm /Users/beausd/.npm/gulp is being purged
+85 silly gentlyRm /Users/beausd/.npm/gulp-util is being purged
+86 silly gentlyRm /Users/beausd/.npm/gulplog is being purged
+87 silly gentlyRm /Users/beausd/.npm/has-ansi is being purged
+88 silly gentlyRm /Users/beausd/.npm/has-gulplog is being purged
+89 silly gentlyRm /Users/beausd/.npm/hosted-git-info is being purged
+90 silly gentlyRm /Users/beausd/.npm/indent-string is being purged
+91 silly gentlyRm /Users/beausd/.npm/inflight is being purged
+92 silly gentlyRm /Users/beausd/.npm/inherits is being purged
+93 silly gentlyRm /Users/beausd/.npm/ini is being purged
+94 silly gentlyRm /Users/beausd/.npm/interpret is being purged
+95 silly gentlyRm /Users/beausd/.npm/is-absolute is being purged
+96 silly gentlyRm /Users/beausd/.npm/is-arrayish is being purged
+97 silly gentlyRm /Users/beausd/.npm/is-buffer is being purged
+98 silly gentlyRm /Users/beausd/.npm/is-builtin-module is being purged
+99 silly gentlyRm /Users/beausd/.npm/is-dotfile is being purged
+100 silly gentlyRm /Users/beausd/.npm/is-equal-shallow is being purged
+101 silly gentlyRm /Users/beausd/.npm/is-extendable is being purged
+102 silly gentlyRm /Users/beausd/.npm/is-extglob is being purged
+103 silly gentlyRm /Users/beausd/.npm/is-finite is being purged
+104 silly gentlyRm /Users/beausd/.npm/is-glob is being purged
+105 silly gentlyRm /Users/beausd/.npm/is-number is being purged
+106 silly gentlyRm /Users/beausd/.npm/is-posix-bracket is being purged
+107 silly gentlyRm /Users/beausd/.npm/is-primitive is being purged
+108 silly gentlyRm /Users/beausd/.npm/is-relative is being purged
+109 silly gentlyRm /Users/beausd/.npm/is-unc-path is being purged
+110 silly gentlyRm /Users/beausd/.npm/is-utf8 is being purged
+111 silly gentlyRm /Users/beausd/.npm/is-windows is being purged
+112 silly gentlyRm /Users/beausd/.npm/isarray is being purged
+113 silly gentlyRm /Users/beausd/.npm/isexe is being purged
+114 silly gentlyRm /Users/beausd/.npm/isobject is being purged
+115 silly gentlyRm /Users/beausd/.npm/kind-of is being purged
+116 silly gentlyRm /Users/beausd/.npm/learndc-web is being purged
+117 silly gentlyRm /Users/beausd/.npm/lib is being purged
+118 silly gentlyRm /Users/beausd/.npm/liftoff is being purged
+119 silly gentlyRm /Users/beausd/.npm/load-json-file is being purged
+120 silly gentlyRm /Users/beausd/.npm/lodash is being purged
+121 silly gentlyRm /Users/beausd/.npm/lodash._basecopy is being purged
+122 silly gentlyRm /Users/beausd/.npm/lodash._basetostring is being purged
+123 silly gentlyRm /Users/beausd/.npm/lodash._basevalues is being purged
+124 silly gentlyRm /Users/beausd/.npm/lodash._getnative is being purged
+125 silly gentlyRm /Users/beausd/.npm/lodash._isiterateecall is being purged
+126 silly gentlyRm /Users/beausd/.npm/lodash._reescape is being purged
+127 silly gentlyRm /Users/beausd/.npm/lodash._reevaluate is being purged
+128 silly gentlyRm /Users/beausd/.npm/lodash._reinterpolate is being purged
+129 silly gentlyRm /Users/beausd/.npm/lodash._root is being purged
+130 silly gentlyRm /Users/beausd/.npm/lodash.assignwith is being purged
+131 silly gentlyRm /Users/beausd/.npm/lodash.escape is being purged
+132 silly gentlyRm /Users/beausd/.npm/lodash.isarguments is being purged
+133 silly gentlyRm /Users/beausd/.npm/lodash.isarray is being purged
+134 silly gentlyRm /Users/beausd/.npm/lodash.isempty is being purged
+135 silly gentlyRm /Users/beausd/.npm/lodash.isplainobject is being purged
+136 silly gentlyRm /Users/beausd/.npm/lodash.isstring is being purged
+137 silly gentlyRm /Users/beausd/.npm/lodash.keys is being purged
+138 silly gentlyRm /Users/beausd/.npm/lodash.mapvalues is being purged
+139 silly gentlyRm /Users/beausd/.npm/lodash.pick is being purged
+140 silly gentlyRm /Users/beausd/.npm/lodash.restparam is being purged
+141 silly gentlyRm /Users/beausd/.npm/lodash.template is being purged
+142 silly gentlyRm /Users/beausd/.npm/lodash.templatesettings is being purged
+143 silly gentlyRm /Users/beausd/.npm/loud-rejection is being purged
+144 silly gentlyRm /Users/beausd/.npm/lru-cache is being purged
+145 silly gentlyRm /Users/beausd/.npm/make-array is being purged
+146 silly gentlyRm /Users/beausd/.npm/map-cache is being purged
+147 silly gentlyRm /Users/beausd/.npm/map-obj is being purged
+148 silly gentlyRm /Users/beausd/.npm/meow is being purged
+149 silly gentlyRm /Users/beausd/.npm/micromatch is being purged
+150 silly gentlyRm /Users/beausd/.npm/minimatch is being purged
+151 silly gentlyRm /Users/beausd/.npm/minimist is being purged
+152 silly gentlyRm /Users/beausd/.npm/mix2 is being purged
+153 silly gentlyRm /Users/beausd/.npm/mkdirp is being purged
+154 silly gentlyRm /Users/beausd/.npm/multipipe is being purged
+155 silly gentlyRm /Users/beausd/.npm/n is being purged
+156 silly gentlyRm /Users/beausd/.npm/natives is being purged
+157 silly gentlyRm /Users/beausd/.npm/nopt is being purged
+158 silly gentlyRm /Users/beausd/.npm/normalize-package-data is being purged
+159 silly gentlyRm /Users/beausd/.npm/normalize-path is being purged
+160 silly gentlyRm /Users/beausd/.npm/npm is being purged
+161 silly gentlyRm /Users/beausd/.npm/number-is-nan is being purged
+162 silly gentlyRm /Users/beausd/.npm/object-assign is being purged
+163 silly gentlyRm /Users/beausd/.npm/object.omit is being purged
+164 silly gentlyRm /Users/beausd/.npm/once is being purged
+165 silly gentlyRm /Users/beausd/.npm/orchestrator is being purged
+166 silly gentlyRm /Users/beausd/.npm/ordered-read-streams is being purged
+167 silly gentlyRm /Users/beausd/.npm/os-homedir is being purged
+168 silly gentlyRm /Users/beausd/.npm/os-tmpdir is being purged
+169 silly gentlyRm /Users/beausd/.npm/osenv is being purged
+170 silly gentlyRm /Users/beausd/.npm/parse-filepath is being purged
+171 silly gentlyRm /Users/beausd/.npm/parse-glob is being purged
+172 silly gentlyRm /Users/beausd/.npm/parse-json is being purged
+173 silly gentlyRm /Users/beausd/.npm/path-exists is being purged
+174 silly gentlyRm /Users/beausd/.npm/path-is-absolute is being purged
+175 silly gentlyRm /Users/beausd/.npm/path-root is being purged
+176 silly gentlyRm /Users/beausd/.npm/path-root-regex is being purged
+177 silly gentlyRm /Users/beausd/.npm/path-type is being purged
+178 silly gentlyRm /Users/beausd/.npm/pify is being purged
+179 silly gentlyRm /Users/beausd/.npm/pinkie is being purged
+180 silly gentlyRm /Users/beausd/.npm/pinkie-promise is being purged
+181 silly gentlyRm /Users/beausd/.npm/preserve is being purged
+182 silly gentlyRm /Users/beausd/.npm/pretty-hrtime is being purged
+183 silly gentlyRm /Users/beausd/.npm/process-nextick-args is being purged
+184 silly gentlyRm /Users/beausd/.npm/randomatic is being purged
+185 silly gentlyRm /Users/beausd/.npm/read-pkg is being purged
+186 silly gentlyRm /Users/beausd/.npm/read-pkg-up is being purged
+187 silly gentlyRm /Users/beausd/.npm/readable-stream is being purged
+188 silly gentlyRm /Users/beausd/.npm/rechoir is being purged
+189 silly gentlyRm /Users/beausd/.npm/redent is being purged
+190 silly gentlyRm /Users/beausd/.npm/regex-cache is being purged
+191 silly gentlyRm /Users/beausd/.npm/registry.npmjs.org is being purged
+192 silly gentlyRm /Users/beausd/.npm/repeat-element is being purged
+193 silly gentlyRm /Users/beausd/.npm/repeat-string is being purged
+194 silly gentlyRm /Users/beausd/.npm/repeating is being purged
+195 silly gentlyRm /Users/beausd/.npm/replace-ext is being purged
+196 silly gentlyRm /Users/beausd/.npm/resolve is being purged
+197 silly gentlyRm /Users/beausd/.npm/resolve-dir is being purged
+198 silly gentlyRm /Users/beausd/.npm/semver is being purged
+199 silly gentlyRm /Users/beausd/.npm/sequencify is being purged
+200 silly gentlyRm /Users/beausd/.npm/share is being purged
+201 silly gentlyRm /Users/beausd/.npm/sigmund is being purged
+202 silly gentlyRm /Users/beausd/.npm/signal-exit is being purged
+203 silly gentlyRm /Users/beausd/.npm/skema is being purged
+204 silly gentlyRm /Users/beausd/.npm/sparkles is being purged
+205 silly gentlyRm /Users/beausd/.npm/spdx-correct is being purged
+206 silly gentlyRm /Users/beausd/.npm/spdx-expression-parse is being purged
+207 silly gentlyRm /Users/beausd/.npm/spdx-license-ids is being purged
+208 silly gentlyRm /Users/beausd/.npm/stream-consume is being purged
+209 silly gentlyRm /Users/beausd/.npm/string_decoder is being purged
+210 silly gentlyRm /Users/beausd/.npm/strip-ansi is being purged
+211 silly gentlyRm /Users/beausd/.npm/strip-bom is being purged
+212 silly gentlyRm /Users/beausd/.npm/strip-indent is being purged
+213 silly gentlyRm /Users/beausd/.npm/supports-color is being purged
+214 silly gentlyRm /Users/beausd/.npm/through2 is being purged
+215 silly gentlyRm /Users/beausd/.npm/tildify is being purged
+216 silly gentlyRm /Users/beausd/.npm/time-stamp is being purged
+217 silly gentlyRm /Users/beausd/.npm/trim-newlines is being purged
+218 silly gentlyRm /Users/beausd/.npm/unc-path-regex is being purged
+219 silly gentlyRm /Users/beausd/.npm/unique-stream is being purged
+220 silly gentlyRm /Users/beausd/.npm/user-home is being purged
+221 silly gentlyRm /Users/beausd/.npm/util-deprecate is being purged
+222 silly gentlyRm /Users/beausd/.npm/v8flags is being purged
+223 silly gentlyRm /Users/beausd/.npm/validate-npm-package-license is being purged
+224 silly gentlyRm /Users/beausd/.npm/vinyl is being purged
+225 silly gentlyRm /Users/beausd/.npm/vinyl-fs is being purged
+226 silly gentlyRm /Users/beausd/.npm/which is being purged
+227 silly gentlyRm /Users/beausd/.npm/wrappy is being purged
+228 silly gentlyRm /Users/beausd/.npm/xtend is being purged
+229 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/2
+230 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/_locks
+231 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/_git-remotes
+232 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/abbrev
+233 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/ansi-regex
+234 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/ansi-styles
+235 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/archy
+236 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/arr-diff
+237 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/arr-flatten
+238 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/array-differ
+239 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/array-find-index
+240 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/array-uniq
+241 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/array-unique
+242 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/async
+243 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/balanced-match
+244 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/beeper
+245 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/bower
+246 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/brace-expansion
+247 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/braces
+248 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/builtin-modules
+249 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/cache
+250 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/camelcase
+251 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/camelcase-keys
+252 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/chalk
+253 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/clean
+254 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/clone
+255 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/clone-stats
+256 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/colors
+257 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/concat-map
+258 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/core-util-is
+259 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/currently-unhandled
+260 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/dateformat
+261 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/decamelize
+262 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/defaults
+263 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/deprecated
+264 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/detect-file
+265 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/ds
+266 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/duplexer2
+267 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/end-of-stream
+268 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/error-ex
+269 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/escape-string-regexp
+270 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/etc
+271 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/expand-brackets
+272 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/expand-range
+273 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/expand-tilde
+274 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/extend
+275 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/extglob
+276 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/fancy-log
+277 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/filename-regex
+278 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/fill-range
+279 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/find-index
+280 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/find-up
+281 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/findup-sync
+282 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/fined
+283 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/first-chunk-stream
+284 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/flagged-respawn
+285 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/for-in
+286 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/for-own
+287 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/fs-exists-sync
+288 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/gaze
+289 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/get-stdin
+290 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/glob
+291 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/glob-base
+292 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/glob-parent
+293 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/glob-stream
+294 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/glob-watcher
+295 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/glob2base
+296 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/global-modules
+297 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/global-prefix
+298 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/globule
+299 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/glogg
+300 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/graceful-fs
+301 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/grunt-cli
+302 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/grunt-known-options
+303 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/grunt-version-check
+304 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/gulp
+305 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/gulp-util
+306 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/gulplog
+307 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/has-ansi
+308 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/has-gulplog
+309 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/hosted-git-info
+310 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/indent-string
+311 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/inflight
+312 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/inherits
+313 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/ini
+314 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/interpret
+315 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/is-absolute
+316 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/is-arrayish
+317 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/is-buffer
+318 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/is-builtin-module
+319 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/is-dotfile
+320 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/is-equal-shallow
+321 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/is-extendable
+322 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/is-extglob
+323 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/is-finite
+324 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/is-glob
+325 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/is-number
+326 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/is-posix-bracket
+327 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/is-primitive
+328 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/is-relative
+329 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/is-unc-path
+330 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/is-utf8
+331 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/is-windows
+332 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/isarray
+333 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/isexe
+334 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/isobject
+335 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/kind-of
+336 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/learndc-web
+337 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/lib
+338 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/liftoff
+339 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/load-json-file
+340 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/lodash
+341 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/lodash._basecopy
+342 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/lodash._basetostring
+343 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/lodash._basevalues
+344 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/lodash._getnative
+345 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/lodash._isiterateecall
+346 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/lodash._reescape
+347 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/lodash._reevaluate
+348 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/lodash._reinterpolate
+349 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/lodash._root
+350 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/lodash.assignwith
+351 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/lodash.escape
+352 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/lodash.isarguments
+353 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/lodash.isarray
+354 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/lodash.isempty
+355 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/lodash.isplainobject
+356 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/lodash.isstring
+357 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/lodash.keys
+358 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/lodash.mapvalues
+359 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/lodash.pick
+360 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/lodash.restparam
+361 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/lodash.template
+362 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/lodash.templatesettings
+363 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/loud-rejection
+364 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/lru-cache
+365 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/make-array
+366 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/map-cache
+367 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/map-obj
+368 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/meow
+369 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/micromatch
+370 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/minimatch
+371 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/minimist
+372 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/mix2
+373 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/mkdirp
+374 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/multipipe
+375 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/n
+376 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/natives
+377 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/nopt
+378 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/normalize-package-data
+379 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/normalize-path
+380 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/npm
+381 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/number-is-nan
+382 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/object-assign
+383 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/object.omit
+384 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/once
+385 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/orchestrator
+386 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/ordered-read-streams
+387 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/os-homedir
+388 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/os-tmpdir
+389 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/osenv
+390 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/parse-filepath
+391 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/parse-glob
+392 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/parse-json
+393 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/path-exists
+394 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/path-is-absolute
+395 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/path-root
+396 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/path-root-regex
+397 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/path-type
+398 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/pify
+399 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/pinkie
+400 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/pinkie-promise
+401 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/preserve
+402 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/pretty-hrtime
+403 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/process-nextick-args
+404 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/randomatic
+405 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/read-pkg
+406 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/read-pkg-up
+407 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/readable-stream
+408 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/rechoir
+409 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/redent
+410 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/regex-cache
+411 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/registry.npmjs.org
+412 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/repeat-element
+413 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/repeat-string
+414 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/repeating
+415 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/replace-ext
+416 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/resolve
+417 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/resolve-dir
+418 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/semver
+419 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/sequencify
+420 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/share
+421 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/sigmund
+422 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/signal-exit
+423 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/skema
+424 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/sparkles
+425 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/spdx-correct
+426 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/spdx-expression-parse
+427 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/spdx-license-ids
+428 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/stream-consume
+429 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/string_decoder
+430 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/strip-ansi
+431 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/strip-bom
+432 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/strip-indent
+433 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/supports-color
+434 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/through2
+435 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/tildify
+436 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/time-stamp
+437 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/trim-newlines
+438 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/unc-path-regex
+439 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/unique-stream
+440 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/user-home
+441 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/util-deprecate
+442 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/v8flags
+443 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/validate-npm-package-license
+444 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/vinyl
+445 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/vinyl-fs
+446 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/which
+447 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/wrappy
+448 verbose gentlyRm don't care about contents; nuking /Users/beausd/.npm/xtend
+449 silly vacuum-fs purging /Users/beausd/.npm/2
+450 silly vacuum-fs purging /Users/beausd/.npm/_locks
+451 silly vacuum-fs purging /Users/beausd/.npm/_git-remotes
+452 silly vacuum-fs purging /Users/beausd/.npm/abbrev
+453 silly vacuum-fs purging /Users/beausd/.npm/ansi-regex
+454 silly vacuum-fs purging /Users/beausd/.npm/ansi-styles
+455 silly vacuum-fs purging /Users/beausd/.npm/archy
+456 silly vacuum-fs purging /Users/beausd/.npm/arr-diff
+457 silly vacuum-fs purging /Users/beausd/.npm/arr-flatten
+458 silly vacuum-fs purging /Users/beausd/.npm/array-differ
+459 silly vacuum-fs purging /Users/beausd/.npm/array-find-index
+460 silly vacuum-fs purging /Users/beausd/.npm/array-uniq
+461 silly vacuum-fs purging /Users/beausd/.npm/array-unique
+462 silly vacuum-fs purging /Users/beausd/.npm/async
+463 silly vacuum-fs purging /Users/beausd/.npm/balanced-match
+464 silly vacuum-fs purging /Users/beausd/.npm/beeper
+465 silly vacuum-fs purging /Users/beausd/.npm/bower
+466 silly vacuum-fs purging /Users/beausd/.npm/brace-expansion
+467 silly vacuum-fs purging /Users/beausd/.npm/braces
+468 silly vacuum-fs purging /Users/beausd/.npm/builtin-modules
+469 silly vacuum-fs purging /Users/beausd/.npm/cache
+470 silly vacuum-fs purging /Users/beausd/.npm/camelcase
+471 silly vacuum-fs purging /Users/beausd/.npm/camelcase-keys
+472 silly vacuum-fs purging /Users/beausd/.npm/chalk
+473 silly vacuum-fs purging /Users/beausd/.npm/clean
+474 silly vacuum-fs purging /Users/beausd/.npm/clone
+475 silly vacuum-fs purging /Users/beausd/.npm/clone-stats
+476 silly vacuum-fs purging /Users/beausd/.npm/colors
+477 silly vacuum-fs purging /Users/beausd/.npm/concat-map
+478 silly vacuum-fs purging /Users/beausd/.npm/core-util-is
+479 silly vacuum-fs purging /Users/beausd/.npm/currently-unhandled
+480 silly vacuum-fs purging /Users/beausd/.npm/dateformat
+481 silly vacuum-fs purging /Users/beausd/.npm/decamelize
+482 silly vacuum-fs purging /Users/beausd/.npm/defaults
+483 silly vacuum-fs purging /Users/beausd/.npm/deprecated
+484 silly vacuum-fs purging /Users/beausd/.npm/detect-file
+485 silly vacuum-fs purging /Users/beausd/.npm/ds
+486 silly vacuum-fs purging /Users/beausd/.npm/duplexer2
+487 silly vacuum-fs purging /Users/beausd/.npm/end-of-stream
+488 silly vacuum-fs purging /Users/beausd/.npm/error-ex
+489 silly vacuum-fs purging /Users/beausd/.npm/escape-string-regexp
+490 silly vacuum-fs purging /Users/beausd/.npm/etc
+491 silly vacuum-fs purging /Users/beausd/.npm/expand-brackets
+492 silly vacuum-fs purging /Users/beausd/.npm/expand-range
+493 silly vacuum-fs purging /Users/beausd/.npm/expand-tilde
+494 silly vacuum-fs purging /Users/beausd/.npm/extend
+495 silly vacuum-fs purging /Users/beausd/.npm/extglob
+496 silly vacuum-fs purging /Users/beausd/.npm/fancy-log
+497 silly vacuum-fs purging /Users/beausd/.npm/filename-regex
+498 silly vacuum-fs purging /Users/beausd/.npm/fill-range
+499 silly vacuum-fs purging /Users/beausd/.npm/find-index
+500 silly vacuum-fs purging /Users/beausd/.npm/find-up
+501 silly vacuum-fs purging /Users/beausd/.npm/findup-sync
+502 silly vacuum-fs purging /Users/beausd/.npm/fined
+503 silly vacuum-fs purging /Users/beausd/.npm/first-chunk-stream
+504 silly vacuum-fs purging /Users/beausd/.npm/flagged-respawn
+505 silly vacuum-fs purging /Users/beausd/.npm/for-in
+506 silly vacuum-fs purging /Users/beausd/.npm/for-own
+507 silly vacuum-fs purging /Users/beausd/.npm/fs-exists-sync
+508 silly vacuum-fs purging /Users/beausd/.npm/gaze
+509 silly vacuum-fs purging /Users/beausd/.npm/get-stdin
+510 silly vacuum-fs purging /Users/beausd/.npm/glob
+511 silly vacuum-fs purging /Users/beausd/.npm/glob-base
+512 silly vacuum-fs purging /Users/beausd/.npm/glob-parent
+513 silly vacuum-fs purging /Users/beausd/.npm/glob-stream
+514 silly vacuum-fs purging /Users/beausd/.npm/glob-watcher
+515 silly vacuum-fs purging /Users/beausd/.npm/glob2base
+516 silly vacuum-fs purging /Users/beausd/.npm/global-modules
+517 silly vacuum-fs purging /Users/beausd/.npm/global-prefix
+518 silly vacuum-fs purging /Users/beausd/.npm/globule
+519 silly vacuum-fs purging /Users/beausd/.npm/glogg
+520 silly vacuum-fs purging /Users/beausd/.npm/graceful-fs
+521 silly vacuum-fs purging /Users/beausd/.npm/grunt-cli
+522 silly vacuum-fs purging /Users/beausd/.npm/grunt-known-options
+523 silly vacuum-fs purging /Users/beausd/.npm/grunt-version-check
+524 silly vacuum-fs purging /Users/beausd/.npm/gulp
+525 silly vacuum-fs purging /Users/beausd/.npm/gulp-util
+526 silly vacuum-fs purging /Users/beausd/.npm/gulplog
+527 silly vacuum-fs purging /Users/beausd/.npm/has-ansi
+528 silly vacuum-fs purging /Users/beausd/.npm/has-gulplog
+529 silly vacuum-fs purging /Users/beausd/.npm/hosted-git-info
+530 silly vacuum-fs purging /Users/beausd/.npm/indent-string
+531 silly vacuum-fs purging /Users/beausd/.npm/inflight
+532 silly vacuum-fs purging /Users/beausd/.npm/inherits
+533 silly vacuum-fs purging /Users/beausd/.npm/ini
+534 silly vacuum-fs purging /Users/beausd/.npm/interpret
+535 silly vacuum-fs purging /Users/beausd/.npm/is-absolute
+536 silly vacuum-fs purging /Users/beausd/.npm/is-arrayish
+537 silly vacuum-fs purging /Users/beausd/.npm/is-buffer
+538 silly vacuum-fs purging /Users/beausd/.npm/is-builtin-module
+539 silly vacuum-fs purging /Users/beausd/.npm/is-dotfile
+540 silly vacuum-fs purging /Users/beausd/.npm/is-equal-shallow
+541 silly vacuum-fs purging /Users/beausd/.npm/is-extendable
+542 silly vacuum-fs purging /Users/beausd/.npm/is-extglob
+543 silly vacuum-fs purging /Users/beausd/.npm/is-finite
+544 silly vacuum-fs purging /Users/beausd/.npm/is-glob
+545 silly vacuum-fs purging /Users/beausd/.npm/is-number
+546 silly vacuum-fs purging /Users/beausd/.npm/is-posix-bracket
+547 silly vacuum-fs purging /Users/beausd/.npm/is-primitive
+548 silly vacuum-fs purging /Users/beausd/.npm/is-relative
+549 silly vacuum-fs purging /Users/beausd/.npm/is-unc-path
+550 silly vacuum-fs purging /Users/beausd/.npm/is-utf8
+551 silly vacuum-fs purging /Users/beausd/.npm/is-windows
+552 silly vacuum-fs purging /Users/beausd/.npm/isarray
+553 silly vacuum-fs purging /Users/beausd/.npm/isexe
+554 silly vacuum-fs purging /Users/beausd/.npm/isobject
+555 silly vacuum-fs purging /Users/beausd/.npm/kind-of
+556 silly vacuum-fs purging /Users/beausd/.npm/learndc-web
+557 silly vacuum-fs purging /Users/beausd/.npm/lib
+558 silly vacuum-fs purging /Users/beausd/.npm/liftoff
+559 silly vacuum-fs purging /Users/beausd/.npm/load-json-file
+560 silly vacuum-fs purging /Users/beausd/.npm/lodash
+561 silly vacuum-fs purging /Users/beausd/.npm/lodash._basecopy
+562 silly vacuum-fs purging /Users/beausd/.npm/lodash._basetostring
+563 silly vacuum-fs purging /Users/beausd/.npm/lodash._basevalues
+564 silly vacuum-fs purging /Users/beausd/.npm/lodash._getnative
+565 silly vacuum-fs purging /Users/beausd/.npm/lodash._isiterateecall
+566 silly vacuum-fs purging /Users/beausd/.npm/lodash._reescape
+567 silly vacuum-fs purging /Users/beausd/.npm/lodash._reevaluate
+568 silly vacuum-fs purging /Users/beausd/.npm/lodash._reinterpolate
+569 silly vacuum-fs purging /Users/beausd/.npm/lodash._root
+570 silly vacuum-fs purging /Users/beausd/.npm/lodash.assignwith
+571 silly vacuum-fs purging /Users/beausd/.npm/lodash.escape
+572 silly vacuum-fs purging /Users/beausd/.npm/lodash.isarguments
+573 silly vacuum-fs purging /Users/beausd/.npm/lodash.isarray
+574 silly vacuum-fs purging /Users/beausd/.npm/lodash.isempty
+575 silly vacuum-fs purging /Users/beausd/.npm/lodash.isplainobject
+576 silly vacuum-fs purging /Users/beausd/.npm/lodash.isstring
+577 silly vacuum-fs purging /Users/beausd/.npm/lodash.keys
+578 silly vacuum-fs purging /Users/beausd/.npm/lodash.mapvalues
+579 silly vacuum-fs purging /Users/beausd/.npm/lodash.pick
+580 silly vacuum-fs purging /Users/beausd/.npm/lodash.restparam
+581 silly vacuum-fs purging /Users/beausd/.npm/lodash.template
+582 silly vacuum-fs purging /Users/beausd/.npm/lodash.templatesettings
+583 silly vacuum-fs purging /Users/beausd/.npm/loud-rejection
+584 silly vacuum-fs purging /Users/beausd/.npm/lru-cache
+585 silly vacuum-fs purging /Users/beausd/.npm/make-array
+586 silly vacuum-fs purging /Users/beausd/.npm/map-cache
+587 silly vacuum-fs purging /Users/beausd/.npm/map-obj
+588 silly vacuum-fs purging /Users/beausd/.npm/meow
+589 silly vacuum-fs purging /Users/beausd/.npm/micromatch
+590 silly vacuum-fs purging /Users/beausd/.npm/minimatch
+591 silly vacuum-fs purging /Users/beausd/.npm/minimist
+592 silly vacuum-fs purging /Users/beausd/.npm/mix2
+593 silly vacuum-fs purging /Users/beausd/.npm/mkdirp
+594 silly vacuum-fs purging /Users/beausd/.npm/multipipe
+595 silly vacuum-fs purging /Users/beausd/.npm/n
+596 silly vacuum-fs purging /Users/beausd/.npm/natives
+597 silly vacuum-fs purging /Users/beausd/.npm/nopt
+598 silly vacuum-fs purging /Users/beausd/.npm/normalize-package-data
+599 silly vacuum-fs purging /Users/beausd/.npm/normalize-path
+600 silly vacuum-fs purging /Users/beausd/.npm/npm
+601 silly vacuum-fs purging /Users/beausd/.npm/number-is-nan
+602 silly vacuum-fs purging /Users/beausd/.npm/object-assign
+603 silly vacuum-fs purging /Users/beausd/.npm/object.omit
+604 silly vacuum-fs purging /Users/beausd/.npm/once
+605 silly vacuum-fs purging /Users/beausd/.npm/orchestrator
+606 silly vacuum-fs purging /Users/beausd/.npm/ordered-read-streams
+607 silly vacuum-fs purging /Users/beausd/.npm/os-homedir
+608 silly vacuum-fs purging /Users/beausd/.npm/os-tmpdir
+609 silly vacuum-fs purging /Users/beausd/.npm/osenv
+610 silly vacuum-fs purging /Users/beausd/.npm/parse-filepath
+611 silly vacuum-fs purging /Users/beausd/.npm/parse-glob
+612 silly vacuum-fs purging /Users/beausd/.npm/parse-json
+613 silly vacuum-fs purging /Users/beausd/.npm/path-exists
+614 silly vacuum-fs purging /Users/beausd/.npm/path-is-absolute
+615 silly vacuum-fs purging /Users/beausd/.npm/path-root
+616 silly vacuum-fs purging /Users/beausd/.npm/path-root-regex
+617 silly vacuum-fs purging /Users/beausd/.npm/path-type
+618 silly vacuum-fs purging /Users/beausd/.npm/pify
+619 silly vacuum-fs purging /Users/beausd/.npm/pinkie
+620 silly vacuum-fs purging /Users/beausd/.npm/pinkie-promise
+621 silly vacuum-fs purging /Users/beausd/.npm/preserve
+622 silly vacuum-fs purging /Users/beausd/.npm/pretty-hrtime
+623 silly vacuum-fs purging /Users/beausd/.npm/process-nextick-args
+624 silly vacuum-fs purging /Users/beausd/.npm/randomatic
+625 silly vacuum-fs purging /Users/beausd/.npm/read-pkg
+626 silly vacuum-fs purging /Users/beausd/.npm/read-pkg-up
+627 silly vacuum-fs purging /Users/beausd/.npm/readable-stream
+628 silly vacuum-fs purging /Users/beausd/.npm/rechoir
+629 silly vacuum-fs purging /Users/beausd/.npm/redent
+630 silly vacuum-fs purging /Users/beausd/.npm/regex-cache
+631 silly vacuum-fs purging /Users/beausd/.npm/registry.npmjs.org
+632 silly vacuum-fs purging /Users/beausd/.npm/repeat-element
+633 silly vacuum-fs purging /Users/beausd/.npm/repeat-string
+634 silly vacuum-fs purging /Users/beausd/.npm/repeating
+635 silly vacuum-fs purging /Users/beausd/.npm/replace-ext
+636 silly vacuum-fs purging /Users/beausd/.npm/resolve
+637 silly vacuum-fs purging /Users/beausd/.npm/resolve-dir
+638 silly vacuum-fs purging /Users/beausd/.npm/semver
+639 silly vacuum-fs purging /Users/beausd/.npm/sequencify
+640 silly vacuum-fs purging /Users/beausd/.npm/share
+641 silly vacuum-fs purging /Users/beausd/.npm/sigmund
+642 silly vacuum-fs purging /Users/beausd/.npm/signal-exit
+643 silly vacuum-fs purging /Users/beausd/.npm/skema
+644 silly vacuum-fs purging /Users/beausd/.npm/sparkles
+645 silly vacuum-fs purging /Users/beausd/.npm/spdx-correct
+646 silly vacuum-fs purging /Users/beausd/.npm/spdx-expression-parse
+647 silly vacuum-fs purging /Users/beausd/.npm/spdx-license-ids
+648 silly vacuum-fs purging /Users/beausd/.npm/stream-consume
+649 silly vacuum-fs purging /Users/beausd/.npm/string_decoder
+650 silly vacuum-fs purging /Users/beausd/.npm/strip-ansi
+651 silly vacuum-fs purging /Users/beausd/.npm/strip-bom
+652 silly vacuum-fs purging /Users/beausd/.npm/strip-indent
+653 silly vacuum-fs purging /Users/beausd/.npm/supports-color
+654 silly vacuum-fs purging /Users/beausd/.npm/through2
+655 silly vacuum-fs purging /Users/beausd/.npm/tildify
+656 silly vacuum-fs purging /Users/beausd/.npm/time-stamp
+657 silly vacuum-fs purging /Users/beausd/.npm/trim-newlines
+658 silly vacuum-fs purging /Users/beausd/.npm/unc-path-regex
+659 silly vacuum-fs purging /Users/beausd/.npm/unique-stream
+660 silly vacuum-fs purging /Users/beausd/.npm/user-home
+661 silly vacuum-fs purging /Users/beausd/.npm/util-deprecate
+662 silly vacuum-fs purging /Users/beausd/.npm/v8flags
+663 silly vacuum-fs purging /Users/beausd/.npm/validate-npm-package-license
+664 silly vacuum-fs purging /Users/beausd/.npm/vinyl
+665 silly vacuum-fs purging /Users/beausd/.npm/vinyl-fs
+666 silly vacuum-fs purging /Users/beausd/.npm/which
+667 silly vacuum-fs purging /Users/beausd/.npm/wrappy
+668 silly vacuum-fs purging /Users/beausd/.npm/xtend
+669 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+670 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+671 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+672 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+673 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+674 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+675 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+676 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+677 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+678 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+679 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+680 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+681 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+682 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+683 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+684 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+685 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+686 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+687 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+688 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+689 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+690 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+691 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+692 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+693 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+694 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+695 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+696 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+697 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+698 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+699 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+700 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+701 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+702 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+703 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+704 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+705 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+706 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+707 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+708 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+709 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+710 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+711 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+712 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+713 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+714 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+715 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+716 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+717 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+718 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+719 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+720 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+721 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+722 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+723 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+724 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+725 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+726 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+727 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+728 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+729 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+730 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+731 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+732 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+733 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+734 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+735 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+736 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+737 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+738 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+739 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+740 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+741 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+742 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+743 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+744 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+745 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+746 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+747 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+748 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+749 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+750 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+751 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+752 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+753 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+754 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+755 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+756 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+757 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+758 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+759 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+760 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+761 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+762 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+763 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+764 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+765 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+766 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+767 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+768 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+769 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+770 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+771 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+772 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+773 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+774 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+775 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+776 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+777 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+778 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+779 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+780 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+781 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+782 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+783 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+784 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+785 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+786 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+787 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+788 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+789 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+790 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+791 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+792 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+793 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+794 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+795 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+796 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+797 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+798 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+799 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+800 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+801 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+802 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+803 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+804 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+805 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+806 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+807 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+808 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+809 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+810 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+811 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+812 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+813 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+814 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+815 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+816 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+817 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+818 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+819 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+820 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+821 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+822 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+823 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+824 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+825 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+826 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+827 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+828 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+829 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+830 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+831 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+832 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+833 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+834 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+835 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+836 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+837 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+838 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+839 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+840 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+841 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+842 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+843 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+844 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+845 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+846 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+847 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+848 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+849 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+850 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+851 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+852 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+853 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+854 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+855 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+856 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+857 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+858 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+859 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+860 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+861 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+862 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+863 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+864 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+865 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+866 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+867 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+868 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+869 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+870 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+871 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+872 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+873 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+874 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+875 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+876 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+877 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+878 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+879 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+880 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+881 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+882 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+883 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+884 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+885 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+886 silly vacuum-fs quitting because other entries in /Users/beausd/.npm
+887 verbose stack Error: May not delete: /Users/beausd/.npm/bin
+887 verbose stack     at gentlyRm (/usr/local/lib/node_modules/npm/lib/utils/gently-rm.js:55:15)
+887 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+887 verbose stack     at Array.forEach (native)
+887 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+887 verbose stack     at Array.forEach (native)
+887 verbose stack     at asyncMap (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:51:8)
+887 verbose stack     at /usr/local/lib/node_modules/npm/lib/cache.js:207:7
+887 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:140:16
+887 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
+888 verbose cwd /Users/beausd/Sites/ballmer-curve
+889 error Darwin 16.6.0
+890 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "cache" "clean" "-f"
+891 error node v5.4.1
+892 error npm  v3.3.12
+893 error May not delete: /Users/beausd/.npm/bin
+894 error If you need help, you may report this error at:
+894 error     <https://github.com/npm/npm/issues>
+895 verbose exit [ 1, true ]
