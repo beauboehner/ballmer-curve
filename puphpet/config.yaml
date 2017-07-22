@@ -231,7 +231,7 @@ apache:
             servername: ballmercurve.com
             serveraliases:
                 - www.ballmercurve.com
-            docroot: /var/www/python-dir
+            docroot: /var/www/python-durr
             port: '80'
             setenvif:
                 - 'Authorization "(.*)" HTTP_AUTHORIZATION=$1'
@@ -245,7 +245,7 @@ apache:
             ssl_cipher: ''
             directories:
                 avd_3n85vfxg5726:
-                    path: /var/www/awesome/web
+                    path: /var/www/python-durr
                     directoryindex: 'app.dev'
                     options:
                         - Indexes
