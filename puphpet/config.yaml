@@ -235,7 +235,7 @@ apache:
             port: '80'
             setenvif:
                 - 'Authorization "(.*)" HTTP_AUTHORIZATION=$1'
-            custom_fragment: ''
+            custom_fragment: /vagrant/config/apachedjango.conf
             ssl: '0'
             ssl_cert: LETSENCRYPT
             ssl_key: LETSENCRYPT
@@ -255,7 +255,10 @@ apache:
                         - All
                     require:
                         - 'all granted'
-                    custom_fragment: ''
+                    custom_fragment: |
+                      <Files wsgi.py>
+                      Require all granted
+                      </Files>
                     provider: directory
 letsencrypt:
     install: '1'
