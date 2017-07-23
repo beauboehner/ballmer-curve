@@ -2,3 +2,4 @@ puphpet/config-custom.yaml
 env/*
 .idea*
 node_modules
+puphpet/puppet/modules/elasticsearch/templates/usr/
