@@ -1,5 +1,5 @@
 # Installation
-* Install Vagrant
+* Install Vagrant and VirtualBox
 * In a terminal navigate to the project root
 * Provision the VM: `vagrant up`
 * SSH into the VM: `vagrant ssh`
