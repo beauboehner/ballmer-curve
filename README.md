@@ -9,3 +9,5 @@ mkdir env
 cd env
 virtualenv-3.4.0 .
 ```
+
+* Add an entry in your hosts file for 192.168.56.101 -> ballmercurve.com
