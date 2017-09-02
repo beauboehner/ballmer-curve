@@ -3,3 +3,4 @@ env/*
 .idea*
 node_modules
 puphpet/puppet/modules/elasticsearch/templates/usr/
+.vagrant
