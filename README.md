@@ -13,4 +13,12 @@ virtualenv-3.4.0 .
 ```
 * If the virtualenv command is not found, run `vagrant provision` -- virtualenv is not always installed on initial provisioning.
 
+From /var/www/env, active the virtual environment:
+
+`source bin/activate`
+
+If you haven't already, create the super user:
+
+`python manage.py createsuperuser`
+
 * Add an entry in your hosts file for 192.168.56.101 -> ballmercurve.com
